@@ -1,0 +1,7 @@
+echo "# webd.namangogia.netlify" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/namangogia/webd.namangogia.netlify.git
+git push -u origin master
